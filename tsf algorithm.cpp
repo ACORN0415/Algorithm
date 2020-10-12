@@ -10,7 +10,7 @@ int TSP(int curr, int visited) {
 	int result;
 	int ret = dp[curr][visited];
 
-	if (ret != 0) //이미 구한 적 
+	if (ret != 0) 
 
 		return ret;
 
